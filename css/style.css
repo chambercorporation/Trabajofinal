@@ -1,0 +1,38 @@
+#body{
+background-image: url('../img/samurai.gif');
+height: 90vh;
+  background-size: 100%;
+  background-position: center;
+}
+#BSupEventos{
+  background-color:rgba(58, 55, 55, 0.37);
+}
+#pie{
+  background-color:rgba(58, 55, 55, 0.37);
+}#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  #center{
+  background-color:rgba(255, 255, 255, 0.466);
+  padding:2px 10px 10px 10px;
+  font-size:20px;
+  color: black;
+  margin-top:7px;margin-bottom:7px;border-radius:15px;
+}
+#negative{
+  background-color:rgba(158, 40, 40, 0.678);
+  padding:2px 10px 10px 10px;
+  font-size:20px;
+  color: white;
+  margin-top:7px;margin-bottom:7px;border-radius:15px;
+}
+#positive{
+  background-color:rgba(42, 150, 51, 0.678);
+  padding:2px 10px 10px 10px;
+  font-size:20px;
+  color: black;
+  margin-top:7px;margin-bottom:7px;border-radius:15px;
+}
