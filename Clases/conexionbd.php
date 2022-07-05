@@ -3,7 +3,7 @@ class Conexionbd{
     private $host = "localhost";
     private $user = "root";
     private $pass = "";
-    private $db = "juegos";
+    private $db = "calendario";
     public function conectar(){
         $conexion = mysqli_connect($this->host, $this->user, $this->pass, $this->db);
         if($conexion->connect_error){
@@ -24,11 +24,11 @@ class Conexionbd{
     // insert, update, delete
       public function consulta_enviar($consulta,$con_bbdd){
           $resultado = mysqli_query($con_bbdd, $consulta);
-          }
+          return $resultado;
 
       }
 
-
+}
 
 
 ?>

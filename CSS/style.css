@@ -1,0 +1,25 @@
+#BarraSuperior{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#pie{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+#body{
+  background-image: url('../img/samurai.gif');
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+  background-color: #126962;
+}
+#center{
+  background-color:rgba(255, 255, 255, 0.466);
+  padding:2px 10px 10px 10px;
+  font-size:20px;
+  color: black;
+  margin-top:7px;margin-bottom:7px;border-radius:15px;
+}
+/* CSS segunda parte */
+
+#BSupEventos{
+  background-color: rgba(0, 0, 0, 0.5);
+}
